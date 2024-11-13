@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Need any help?",
+        "Hey! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "I am leaving",
+        "Have a good day"
+      ],
+      "responses": [
+        "Goodbye! Take care!",
+        "See you soon!",
+        "Have a nice day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Happy to assist!"
+      ]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": [
+        "Can you recommend a movie?",
+        "Suggest a movie",
+        "I want a movie recommendation",
+        "Recommend me a movie",
+        "What's a good movie to watch?"
+      ],
+      "responses": [
+        "Sure! Please tell me a movie title or genre you're interested in.",
+        "I'd be happy to help! What genre are you in the mood for?",
+        "Just give me a movie title or genre, and I can suggest something similar."
+      ]
+    },
+    {
+      "tag": "genre_recommendation",
+      "patterns": [
+        "Suggest an action movie",
+        "Recommend a comedy",
+        "Give me a horror movie",
+        "Show me a romantic movie",
+        "I want to watch a sci-fi movie"
+      ],
+      "responses": [
+        "Here's a recommendation for you!",
+        "How about watching this movie?",
+        "Let me suggest something for you."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who is your developer?", "Who made you?"],
+      "responses": ["I was created by Sharda Jadhav."]
+
+    },
+    {
+      "tag": "identity",
+      "patterns": ["What is your name?", "What should I call you?", "Who are you?","What are you","Introduce Yourself"],
+      "responses": ["You can call me Cruella. I'm a Chatbot."]
+
+    },{
+      "tag": "casual_greeting",
+      "patterns": ["What's up?", "How are you?", "How you doing?"],
+       "responses": ["I'm here to assist you with any questions or information you need. How can I assist you today?"]
+
+     },{
+        "tag": "thank_you",
+        "patterns": ["Thank you", "Thanks"],
+        "responses": ["You're welcome! If you have any more questions, feel free to ask."]
+
+        },
+       {
+       "tag": "sorry",
+      "patterns": ["Sorry", "Apologies"],
+       "responses": ["No problem! If there's anything else you need assistance with, feel free to let me know."]
+
+    }
+  ]
+}
